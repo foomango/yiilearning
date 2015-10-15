@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Please copy this file to DbConfig.php
+ */
+
+class DbConfig {
+    public static function getConnectionString() {
+        return "mysql:host=localhost;dbname=testdrive";
+    }
+
+    public static function getUsername() {
+        return "username";
+    }
+
+    public static function getPassword() {
+        return "password";
+    }
+}
